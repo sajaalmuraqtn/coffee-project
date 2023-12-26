@@ -1,8 +1,43 @@
 
-.container{
-    padding-top:100px;
-    background-color: blue;
+header{
+    background-image: url(../images/banner.png);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
 }
-.card{
-    background-color: teal;
+h2,span{
+    color: #f76d37;
+}
+header .container{
+   display: flex;
+   height: 100%;
+   flex-direction: column;
+   justify-content: center;
+}
+
+header .container h1{
+  font-size:60px;
+}
+header .container h2{
+  font-size:70px;
+}
+header .container p{
+  width:40%;
+}
+header .container button{
+  width:10%;
+}
+
+/* about */
+.about{
+    height: 80vh;
+}
+
+.about-content p{
+   width: 90%;
+}
+
+.Our-Flogs{
+    height: 40%;
+
 }
